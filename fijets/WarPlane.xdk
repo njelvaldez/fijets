@@ -1,0 +1,372 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "Construct2",
+      "projectGuid": "162109ce-5438-4c1a-a3de-3c1e524d73c6",
+      "lastModifiedDate": 1506244610892,
+      "creationDate": 1506160980000
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-device",
+        "originType": "cordova.io",
+        "version": "1.1.2",
+        "selectedState": "Included",
+        "name": "Device",
+        "origin": "cordova-plugin-device",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "2373ccea",
+        "gitref": "",
+        "description": "Cordova Device Plugin"
+      },
+      {
+        "id": "cordova-plugin-file",
+        "originType": "cordova.io",
+        "version": "4.2.0",
+        "selectedState": "Included",
+        "name": "File",
+        "origin": "cordova-plugin-file",
+        "data": {},
+        "paramvals": {},
+        "permissions": {
+          "android:name": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ]
+        },
+        "dependsOn": [
+          "cordova-plugin-compat"
+        ],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "1fdd7f27",
+        "gitref": "",
+        "description": "Cordova File Plugin"
+      },
+      {
+        "id": "cordova-plugin-httpd",
+        "originType": "cordova.io",
+        "version": "0.9.3",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE"
+          ]
+        },
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "424d27dd",
+        "origin": "cordova-plugin-httpd",
+        "gitref": "",
+        "name": "CorHttpd",
+        "cordovaVersion": ">=2.9",
+        "description": "CorHttpd is an plugin to embed a httpd (web server) into Cordova",
+        "author": "Liming Xie",
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "originType": "cordova.io",
+        "version": "3.2.2",
+        "selectedState": "Included",
+        "name": "Splashscreen",
+        "origin": "cordova-plugin-splashscreen",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "47137083",
+        "gitref": "",
+        "cordovaVersion": ">=2.9",
+        "description": "Cordova Splashscreen Plugin"
+      },
+      {
+        "id": "cordova-plugin-statusbar",
+        "originType": "cordova.io",
+        "version": "2.1.3",
+        "selectedState": "Included",
+        "name": "StatusBar",
+        "origin": "cordova-plugin-statusbar",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "c0146fbc",
+        "gitref": "",
+        "cordovaVersion": ">=3.0.0",
+        "description": "Cordova StatusBar Plugin"
+      },
+      {
+        "id": "cordova-plugin-wkwebview-engine",
+        "originType": "cordova.io",
+        "version": "1.0.3",
+        "selectedState": "Included",
+        "name": "Cordova WKWebView Engine",
+        "origin": "cordova-plugin-wkwebview-engine",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "a34a592c",
+        "gitref": "",
+        "cordovaVersion": ">=3.0.0",
+        "description": "Cordova WKWebView Engine Plugin"
+      },
+      {
+        "id": "cordova-plugin-compat",
+        "name": "Compat",
+        "version": "1.0.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-compat",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-compat",
+        "selectedState": "Included",
+        "checksum": "61c62eb",
+        "dependsOn": [],
+        "topLevel": false,
+        "permissions": {},
+        "description": "Cordova Compatibility Plugin",
+        "data": {},
+        "dependedBy": [
+          "cordova-plugin-file"
+        ],
+        "custom": "true"
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "16",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "android-signed": true,
+          "Fullscreen": true,
+          "Orientation": "portrait",
+          "AndroidLaunchMode": "singleTop"
+        },
+        "isActive_": true,
+        "certificateId_": "7TO1l0vw7k-lmoua3DyUsA2",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "23",
+        "appName_": "FIJETS",
+        "appID_": "com.jiyant.fijets",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/player36x36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/player48x48.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/player72x72.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/player96x96.png",
+            "width": 96,
+            "height": 96
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "package-assets/fijetsscreen320x426.png",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/fijetsscreen480x640.png",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/fijetsscreen320x470.png",
+            "density": "mdpi",
+            "height": 470,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/fijetsscreen720x960.png",
+            "density": "xhdpi",
+            "height": 960,
+            "width": 720,
+            "orientation": "portrait"
+          }
+        ],
+        "addlPermissions_": "",
+        "appVersion_": "2",
+        "appVersionCode_": "2",
+        "appDescription_": "FIJETS is a challenging game with 10 levels",
+        "appAuthor_": "Angelo R. Valdez"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "default",
+          "deployment-target": "8.0"
+        },
+        "isActive_": false,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "appName_": "War Plane",
+        "appID_": "com.smilegroup.warplane",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "appVersion_": "1",
+        "appVersionCode_": "1"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+          "Fullscreen": true,
+          "Orientation": "default"
+        },
+        "isActive_": false,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "appName_": "War Plane",
+        "appID_": "com.smilegroup.warplane",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "appVersion_": "1",
+        "appVersionCode_": "1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "War Plane",
+        "appID_": "com.smilegroup.warplane",
+        "appVersion_": "1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "FIJETS",
+        "appID_": "com.smilegroup.warplane",
+        "appVersion_": "1",
+        "icons_": [],
+        "splashes_": [],
+        "appDescription_": "Fighter Jets is a challenging game with ten levels."
+      }
+    },
+    "testDirectory": "test",
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {},
+    "serviceMethods": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "categorization": {
+    "type": "GAME",
+    "category": "Arcade"
+  },
+  "description": {
+    "texts": {
+      "title": "FIJETS",
+      "features": [
+        "Multi Level, Drag and Drop, Reload"
+      ],
+      "short-description": "Fijets is a challenging game, there are ten levels to play.",
+      "full-description": "Fijets is a challenging game it has ten level to play.User just have to avoid the enemies and the player automatically shoot the enemies. When the player run out of bullets, tap the blue lighning icon to reload. Enjoy the game.",
+      "keywords": "Jets, Fighter",
+      "recent-changes": "",
+      "privacy-policy": "",
+      "eula": ""
+    },
+    "images": {
+      "screenshots": [
+        "fijetsscreen1.png",
+        "fijetsscreen2.png",
+        "fijetsscreen3.png"
+      ],
+      "app-icon-small": "../../../../Construct2 For Deploy 2017/Sprites/Fijets.png",
+      "app-icon": "../../../../Construct2 For Deploy 2017/Sprites/Fijets512.png",
+      "small-promo": "",
+      "large-promo": ""
+    },
+    "videos": {
+      "video-url": ""
+    }
+  },
+  "packages": {
+    "apk-file": "",
+    "zip-xdk-compliant": false,
+    "zip-file": "",
+    "secondary-apk-file": ""
+  },
+  "support": {
+    "email": "njelvaldez@gmail.com",
+    "website": "http://jiyant.com/"
+  },
+  "testing-instructions": "Drag and drop the plane, avoid enemies and eliminate the enemies. When out of bullets tap on the blue lighning icon to reload. Enjoy the game."
+}
